@@ -1,6 +1,6 @@
 ###########################
-# Project Euler Problem 7
-# 10001st prime
+# Project Euler Problem 10
+# Summation of primes
 #
 # Code by Kevin Marciniak
 ###########################
@@ -29,16 +29,21 @@ def is_prime(prime_test):
     return True
 
 
-# limit = 6
-limit = 10_001
+# limit = 10
+limit = 2_000_000
 prime_list = [2]
 num = 3
 
-while len(prime_list) < limit:
+while num < limit:
     if is_prime(num):
         prime_list.append(num)
         num += 2
     else:
         num += 2
 
-print(prime_list[-1])
+sum = 0
+
+for i in range(0, len(prime_list)):
+    sum += prime_list[i]
+
+print(sum)

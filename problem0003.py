@@ -8,20 +8,25 @@
 from math import *
 
 
-def is_prime(num):
-    if num > 1:
-        if num == 2:
-            return True
-        if num % 2 == 0:
-            return False
+def is_prime(prime_test):
+    if prime_test <= 1:
+        return False
 
-        test = 3
-        while test <= sqrt(num):
-            if (num % test) == 0:
-                return False
-            test += 2
-        else:
-            return True
+    if prime_test == 2 or prime_test == 3:
+        return True
+    if prime_test % 2 == 0:
+        return False
+    if prime_test % 3 == 0:
+        return False
+
+    i = 5
+    sqrt_prime_test = sqrt(prime_test)
+    while i <= sqrt_prime_test:
+        if (prime_test % i) == 0 or (prime_test % (i + 2)) == 0:
+            return False
+        i += 6
+
+    return True
 
 
 def prime_factor(num1, num2):
