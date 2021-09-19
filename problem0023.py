@@ -48,7 +48,7 @@
 # From: https://codereview.stackexchange.com/questions/39946/optimizing-solution-for-project-euler-problem-23-non-abundant-sums
 #
 #####################################
-def GetSumOfDivs(n):
+def getsumofdivs(n):
     i = 2
     upper = n
     total = 1
@@ -56,27 +56,29 @@ def GetSumOfDivs(n):
         if n % i == 0:
             upper = n / i
             total += upper
-            if upper != i: total += i
+            if upper != i:
+                total += i
         i += 1
     return total
 
 
-def isabundant(n): return GetSumOfDivs(n) > n
+def isabundant(n): return getsumofdivs(n) > n
 
 
-lAbundants = [x for x in range(12, 28123) if isabundant(x) == True]
+lAbundants = [x for x in range(12, 28123) if isabundant(x)]
 dAbundants = {x: x for x in lAbundants}
 
 sums = 1
-for i in range(2, 28123):
+for x in range(2, 28123):
     boo = True
     for k in lAbundants:
-        if k < i:
-            if (i - k) in dAbundants:
+        if k < x:
+            if (x - k) in dAbundants:
                 boo = False
                 break
         else:
             break
-    if boo == True: sums += i
+    if boo:
+        sums += x
 
 print(sums)
