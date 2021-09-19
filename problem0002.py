@@ -16,10 +16,10 @@ print(str(prev))
 print(str(next))
 
 while next < limit:
-    if next % 2 == 0:
-        answer += next
-    i = next
-    next += prev
-    prev = i
+	if next % 2 == 0:
+		answer += next
+	i = next
+	next += prev
+	prev = i
 
 print(str(answer))

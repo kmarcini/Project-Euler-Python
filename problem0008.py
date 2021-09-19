@@ -7,9 +7,9 @@
 
 
 def int_to_list(num, temp_list):
-    for x in str(num):
-        temp_list.append(int(x))
-    return temp_list
+	for x in str(num):
+		temp_list.append(int(x))
+	return temp_list
 
 
 # adjacent_digits = 4
@@ -63,10 +63,10 @@ total = int_to_list(big_num20, total)
 total_length = len(total) - (adjacent_digits - 1)
 
 for i in range(1, total_length):
-    temp_gp = total[i]
-    for j in range(1, adjacent_digits):
-        temp_gp *= total[i + j]
-    if temp_gp > greatest_product:
-        greatest_product = temp_gp
+	temp_gp = total[i]
+	for j in range(1, adjacent_digits):
+		temp_gp *= total[i + j]
+	if temp_gp > greatest_product:
+		greatest_product = temp_gp
 
 print(greatest_product)

@@ -11,11 +11,11 @@ found = False
 num = 0
 
 while not found:
-    num += 1
-    found = True
-    for i in range(1, limit):
-        if not (num % i == 0):
-            found = False
-            break
+	num += 1
+	found = True
+	for i in range(1, limit):
+		if not (num % i == 0):
+			found = False
+			break
 
 print(num)

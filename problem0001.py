@@ -11,10 +11,10 @@ limit = 1000
 answer = 0
 
 while i < limit:
-    if i % 3 == 0:
-        answer += i
-    elif i % 5 == 0:
-        answer += i
-    i += 1
+	if i % 3 == 0:
+		answer += i
+	elif i % 5 == 0:
+		answer += i
+	i += 1
 
 print(str(answer))
