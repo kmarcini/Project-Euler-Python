@@ -1,6 +1,8 @@
 ###########################
-# Project Euler Problem 603
+#
 # #603 Substring sums of prime concatenations - Project Euler
+# https://projecteuler.net/problem=603
 #
 # Code by Kevin Marciniak
+#
 ###########################

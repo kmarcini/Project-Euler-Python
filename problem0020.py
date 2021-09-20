@@ -1,8 +1,10 @@
 ###########################
-# Project Euler Problem 20
-# Factorial digit sum
+#
+# #20 Factorial digit sum - Project Euler
+# https://projecteuler.net/problem=20
 #
 # Code by Kevin Marciniak
+#
 ###########################
 
 from advanced_math import *

@@ -1,8 +1,10 @@
 ###########################
-# Project Euler Problem 24
-# Lexicographic permutations
+#
+# #24 Lexicographic permutations - Project Euler
+# https://projecteuler.net/problem=24
 #
 # Code by Kevin Marciniak
+#
 ###########################
 
 # easy mode

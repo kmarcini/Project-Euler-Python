@@ -1,6 +1,8 @@
 ###########################
-# Project Euler Problem 388
+#
 # #388 Distinct Lines - Project Euler
+# https://projecteuler.net/problem=388
 #
 # Code by Kevin Marciniak
+#
 ###########################

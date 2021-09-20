@@ -1,6 +1,8 @@
 ###########################
-# Project Euler Problem 627
+#
 # #627 Counting products - Project Euler
+# https://projecteuler.net/problem=627
 #
 # Code by Kevin Marciniak
+#
 ###########################

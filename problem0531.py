@@ -1,6 +1,8 @@
 ###########################
-# Project Euler Problem 531
+#
 # #531 Chinese leftovers - Project Euler
+# https://projecteuler.net/problem=531
 #
 # Code by Kevin Marciniak
+#
 ###########################

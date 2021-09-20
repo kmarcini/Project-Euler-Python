@@ -1,6 +1,8 @@
 ###########################
-# Project Euler Problem 331
+#
 # #331 Cross flips - Project Euler
+# https://projecteuler.net/problem=331
 #
 # Code by Kevin Marciniak
+#
 ###########################

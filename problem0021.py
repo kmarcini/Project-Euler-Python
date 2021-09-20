@@ -1,8 +1,10 @@
 ###########################
-# Project Euler Problem 21
-# Factorial digit sum
+#
+# #21 Amicable numbers - Project Euler
+# https://projecteuler.net/problem=21
 #
 # Code by Kevin Marciniak
+#
 ###########################
 
 def sumproperdivisors(num):
@@ -20,8 +22,8 @@ for x in range(0, 10000):
     temp = sumproperdivisors(x)
     if sumproperdivisors(temp) == x and sumproperdivisors(x) == temp and temp != x:
         if x not in amicableList and temp not in amicableList:
-            amicableList.insert(len(amicableList), x)
-            amicableList.insert(len(amicableList), temp)
+            amicableList.append(x)
+            amicableList.append(temp)
 
 totalSum = 0
 

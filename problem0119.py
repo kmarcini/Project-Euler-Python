@@ -1,6 +1,8 @@
 ###########################
-# Project Euler Problem 119
+#
 # #119 Digit power sum - Project Euler
+# https://projecteuler.net/problem=119
 #
 # Code by Kevin Marciniak
+#
 ###########################

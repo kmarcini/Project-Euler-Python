@@ -1,8 +1,10 @@
 ###########################
-# Project Euler Problem 22
-# Names scores
+#
+# #22 Names scores - Project Euler
+# https://projecteuler.net/problem=22
 #
 # Code by Kevin Marciniak
+#
 ###########################
 
 tempFile = open("p022_names.txt", "r")

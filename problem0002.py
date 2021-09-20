@@ -1,8 +1,10 @@
 ###########################
-# Project Euler Problem 2
-# Even Fibonacci numbers
+#
+# #2 Even Fibonacci numbers - Project Euler
+# https://projecteuler.net/problem=2
 #
 # Code by Kevin Marciniak
+#
 ###########################
 
 prev = 1
@@ -12,14 +14,14 @@ next = 2
 limit = 4_000_000
 answer = 0
 
-print(str(prev))
-print(str(next))
+print(prev)
+print(next)
 
 while next < limit:
-	if next % 2 == 0:
-		answer += next
-	i = next
-	next += prev
-	prev = i
+    if next % 2 == 0:
+        answer += next
+    i = next
+    next += prev
+    prev = i
 
-print(str(answer))
+print(answer)

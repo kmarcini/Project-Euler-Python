@@ -1,6 +1,8 @@
 ###########################
-# Project Euler Problem 333
+#
 # #333 Special partitions - Project Euler
+# https://projecteuler.net/problem=333
 #
 # Code by Kevin Marciniak
+#
 ###########################

@@ -1,8 +1,10 @@
 ###########################
-# Project Euler Problem 18
-# Maximum path sum I
+#
+# #18 Maximum path sum I - Project Euler
+# https://projecteuler.net/problem=18
 #
 # Code by Kevin Marciniak
+#
 ###########################
 
 triangle_str = [
@@ -24,6 +26,7 @@ triangle_str = [
 
 for x in range(len(triangle_str) - 1, -1, -1):
     for y in range(0, x):
-        triangle_str[x - 1][y] += max(triangle_str[x][y], triangle_str[x][y + 1])
+        triangle_str[x - 1][y] += max(triangle_str[x]
+                                      [y], triangle_str[x][y + 1])
 
 print(triangle_str[0][0])

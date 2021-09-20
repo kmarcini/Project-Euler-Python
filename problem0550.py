@@ -1,6 +1,8 @@
 ###########################
-# Project Euler Problem 550
+#
 # #550 Divisor game - Project Euler
+# https://projecteuler.net/problem=550
 #
 # Code by Kevin Marciniak
+#
 ###########################

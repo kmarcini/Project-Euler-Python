@@ -1,6 +1,8 @@
 ###########################
-# Project Euler Problem 112
+#
 # #112 Bouncy numbers - Project Euler
+# https://projecteuler.net/problem=112
 #
 # Code by Kevin Marciniak
+#
 ###########################

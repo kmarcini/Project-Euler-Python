@@ -1,6 +1,8 @@
 ###########################
-# Project Euler Problem 74
+#
 # #74 Digit factorial chains - Project Euler
+# https://projecteuler.net/problem=74
 #
 # Code by Kevin Marciniak
+#
 ###########################

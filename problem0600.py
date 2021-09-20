@@ -1,6 +1,8 @@
 ###########################
-# Project Euler Problem 600
+#
 # #600 Integer sided equiangular hexagons - Project Euler
+# https://projecteuler.net/problem=600
 #
 # Code by Kevin Marciniak
+#
 ###########################

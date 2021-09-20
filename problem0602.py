@@ -1,6 +1,8 @@
 ###########################
-# Project Euler Problem 602
+#
 # #602 Product of Head Counts - Project Euler
+# https://projecteuler.net/problem=602
 #
 # Code by Kevin Marciniak
+#
 ###########################

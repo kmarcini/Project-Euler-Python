@@ -1,6 +1,8 @@
 ###########################
-# Project Euler Problem 561
+#
 # #561 Divisor Pairs - Project Euler
+# https://projecteuler.net/problem=561
 #
 # Code by Kevin Marciniak
+#
 ###########################

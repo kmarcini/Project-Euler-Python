@@ -1,6 +1,8 @@
 ###########################
-# Project Euler Problem 315
+#
 # #315 Digital root clocks - Project Euler
+# https://projecteuler.net/problem=315
 #
 # Code by Kevin Marciniak
+#
 ###########################

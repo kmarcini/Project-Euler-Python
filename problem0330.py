@@ -1,6 +1,8 @@
 ###########################
-# Project Euler Problem 330
+#
 # #330 Euler's Number - Project Euler
+# https://projecteuler.net/problem=330
 #
 # Code by Kevin Marciniak
+#
 ###########################

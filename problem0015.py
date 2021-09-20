@@ -1,8 +1,10 @@
 ###########################
-# Project Euler Problem 15
-# Lattice paths
+#
+# #15 Lattice paths - Project Euler
+# https://projecteuler.net/problem=15
 #
 # Code by Kevin Marciniak
+#
 ###########################
 # code from: https://stackoverflow.com/questions/2200236/project-euler-15
 

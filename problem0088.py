@@ -1,6 +1,8 @@
 ###########################
-# Project Euler Problem 88
+#
 # #88 Product-sum numbers - Project Euler
+# https://projecteuler.net/problem=88
 #
 # Code by Kevin Marciniak
+#
 ###########################

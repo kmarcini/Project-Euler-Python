@@ -1,6 +1,8 @@
 ###########################
-# Project Euler Problem 77
+#
 # #77 Prime summations - Project Euler
+# https://projecteuler.net/problem=77
 #
 # Code by Kevin Marciniak
+#
 ###########################

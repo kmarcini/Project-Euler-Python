@@ -1,6 +1,8 @@
 ###########################
-# Project Euler Problem 400
+#
 # #400 Fibonacci tree game - Project Euler
+# https://projecteuler.net/problem=400
 #
 # Code by Kevin Marciniak
+#
 ###########################

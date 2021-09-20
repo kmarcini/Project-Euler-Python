@@ -1,6 +1,8 @@
 ###########################
-# Project Euler Problem 187
+#
 # #187 Semiprimes - Project Euler
+# https://projecteuler.net/problem=187
 #
 # Code by Kevin Marciniak
+#
 ###########################

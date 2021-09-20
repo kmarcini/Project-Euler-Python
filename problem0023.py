@@ -1,8 +1,10 @@
 ###########################
-# Project Euler Problem 23
-# Non-abundant sums
+#
+# #23 Non-abundant sums - Project Euler
+# https://projecteuler.net/problem=23
 #
 # Code by Kevin Marciniak
+#
 ###########################
 
 # def sumproperdivisors(num):

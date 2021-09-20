@@ -1,6 +1,8 @@
 ###########################
-# Project Euler Problem 130
+#
 # #130 Composites with prime repunit property - Project Euler
+# https://projecteuler.net/problem=130
 #
 # Code by Kevin Marciniak
+#
 ###########################

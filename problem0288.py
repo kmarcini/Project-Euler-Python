@@ -1,6 +1,8 @@
 ###########################
-# Project Euler Problem 288
+#
 # #288 An enormous factorial - Project Euler
+# https://projecteuler.net/problem=288
 #
 # Code by Kevin Marciniak
+#
 ###########################

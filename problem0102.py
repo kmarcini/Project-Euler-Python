@@ -1,6 +1,8 @@
 ###########################
-# Project Euler Problem 102
+#
 # #102 Triangle containment - Project Euler
+# https://projecteuler.net/problem=102
 #
 # Code by Kevin Marciniak
+#
 ###########################
